@@ -7,7 +7,7 @@ Feel free donate to my EVM address
 EVM :
 
 ```bash
-0x9902C3A98Df4b240ad5496cC26F89bAb8058f4aE
+0x7086918cD79Db480cEEF0eB473C4290936EA40ec
 ```
 
 ## Steps
@@ -15,7 +15,7 @@ EVM :
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/Mnuralim/swisstronik-deploy-private-nft.git
+git clone https://github.com/rabbinik/Deploy-a-Private-NFT
 ```
 ```bash
 cd swisstronik-deploy-private-nft
@@ -126,9 +126,17 @@ git branch -M main
 git push -u origin main
 ```
 
-by :
-github : [Mnuralim](https://github.com/Mnuralim)
-twitter : @Izzycracker04
-telegram : @fitriay19
+```bash
+git init
+git add .
+git remote set-url origin https://github.com/rabbinik/Mint-100-ERC-20-tokens.git
+git push -u origin main
+```
+### 12. Finsihed
 
-//0x5cED43F3224e3F7C7EFA6ABdE9A960A44E3B2dD9// ignore this
+- Open the deployed-adddress.ts (location in utils folder)
+- Copy the address and paste the address in testnet dashboard
+- push this project to your github and paste your repository link in testnet dashboard
+
+by :
+github : [rabbinik](https://github.com/rabbinik)
